@@ -1,0 +1,27 @@
+.informations {
+  gap: 10px;
+}
+button {
+  border-color: rgb(55, 192, 101);
+  background-color: rgb(55, 192, 101);
+  color: aliceblue;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  transition: 0.4s;
+  border: none;
+}
+button:hover {
+  background-color: rgb(27, 146, 67);
+}
+input {
+  width: 90px;
+  height: 20px;
+  background-color: antiquewhite;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
